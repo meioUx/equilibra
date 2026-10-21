@@ -1,0 +1,21 @@
+<!--
+  Equilibra mark (Stitch "Equilibra GLP-1 Logo", projeto 12188252928213011640): anel aberto em
+  gradiente verde → roxo → azul, com três pontos (centro verde, roxo na ponta do anel, azul no topo).
+  Coordenadas do SVG original (caixa 0–100) reescaladas para que a marca (x/y 30–70) preencha 1024.
+  scripts/generate-icons.mjs escala por alvo. Versão de uma cor: mark-mono.svg.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="mark-grad" x1="30" y1="30" x2="70" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+  <g transform="scale(25.6) translate(-30 -30)">
+    <path d="M35 50C35 41.7157 41.7157 35 50 35C58.2843 35 65 41.7157 65 50C65 58.2843 58.2843 65 50 65" fill="none" stroke="url(#mark-grad)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="50" cy="50" r="6" fill="#10B981"/>
+    <circle cx="65" cy="50" r="5" fill="#8B5CF6"/>
+    <circle cx="50" cy="35" r="4" fill="#0EA5E9"/>
+  </g>
+</svg>

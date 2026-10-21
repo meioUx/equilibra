@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+!.env.example
+
+# Local references and exported copies
+material/
+site/
+equilibra-site.tar.gz
